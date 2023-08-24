@@ -2,13 +2,12 @@
 
 ## Overview of the Analysis
 
-In this section, describe the analysis you completed for the machine learning models used in this Challenge. This might include:
+This project trains and evaluates a model based on loan risk to identify the creditworthiness of borrowers, using a dataset of historical lending activity from a peer-to-peer lending services company.
 
-* Explain the purpose of the analysis.
-* Explain what financial information the data was on, and what you needed to predict.
-* Provide basic information about the variables you were trying to predict (e.g., `value_counts`).
-* Describe the stages of the machine learning process you went through as part of this analysis.
-* Briefly touch on any methods you used (e.g., `LogisticRegression`, or any resampling method).
+A logistic regression model is used to classify each loan into healthy loans (loan status = 0) or high-risk loans (loan status = 1). 
+
+Model 1 and Model 2 are only different in that Model 2 oversamples the training data, for the classes (0/1) are imbalanced in the dataset.
+
 
 ## Results
 
