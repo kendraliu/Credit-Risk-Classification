@@ -11,7 +11,7 @@ Model 1 and Model 2 are only different in that Model 2 oversamples the training 
 
 ## Results
 
-* Machine Learning Model 1:
+Machine Learning Model 1:
 
 * The accuracy is high (98.89%)
 * Some of the caseses it identified as high-risk may not be truly high-risk (precision = 0.84, wrongly classified = 113 cases) 
@@ -19,7 +19,7 @@ Model 1 and Model 2 are only different in that Model 2 oversamples the training 
 
 
 
-* Machine Learning Model 2:
+Machine Learning Model 2:
 
 * The accuracy is high (99.34%)
 * Some of the cases it identified as high-risk may not be truly high-risk (precision = 0.83, wrongly classified = 125 cases) 
